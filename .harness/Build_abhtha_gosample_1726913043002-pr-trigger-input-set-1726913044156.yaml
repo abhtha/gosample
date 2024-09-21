@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_abhtha_gosample_1726913043002-pr-trigger-input-set
+  identifier: Build_abhtha_gosample_1726913043002prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Demo
+  pipeline:
+    identifier: Build_abhtha_gosample_1726913043002
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
